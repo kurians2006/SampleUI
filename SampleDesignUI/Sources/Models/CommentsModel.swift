@@ -7,3 +7,8 @@
 //
 
 import Foundation
+
+struct CommentsModel {
+    let name: String
+    let description: String
+}

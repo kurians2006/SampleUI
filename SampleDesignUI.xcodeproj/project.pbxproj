@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		526F54F422882F7300304D1D /* PulseAnimation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F54F322882F7300304D1D /* PulseAnimation.swift */; };
+		526F54F622883BE900304D1D /* CommentsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F54F522883BE900304D1D /* CommentsModel.swift */; };
+		526F54F82288820B00304D1D /* MyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F54F72288820B00304D1D /* MyTableViewCell.swift */; };
+		526F54FA2288908F00304D1D /* UILabelExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526F54F92288908F00304D1D /* UILabelExtension.swift */; };
 		52BEE7932286C8F400C96F8B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7922286C8F400C96F8B /* AppDelegate.swift */; };
 		52BEE7952286C8F400C96F8B /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7942286C8F400C96F8B /* FirstViewController.swift */; };
 		52BEE7972286C8F400C96F8B /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7962286C8F400C96F8B /* SecondViewController.swift */; };
 		52BEE79A2286C8F400C96F8B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BEE7982286C8F400C96F8B /* Main.storyboard */; };
 		52BEE79C2286C8F600C96F8B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52BEE79B2286C8F600C96F8B /* Assets.xcassets */; };
 		52BEE79F2286C8F600C96F8B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52BEE79D2286C8F600C96F8B /* LaunchScreen.storyboard */; };
+		52BEE7A72286CB9F00C96F8B /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7A62286CB9F00C96F8B /* ThirdViewController.swift */; };
+		52BEE7A92286CBB500C96F8B /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7A82286CBB500C96F8B /* FourthViewController.swift */; };
+		52BEE7B12287376600C96F8B /* GameAlbumModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7B02287376600C96F8B /* GameAlbumModel.swift */; };
+		52BEE7B8228743D600C96F8B /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7B7228743D600C96F8B /* MyCollectionViewCell.swift */; };
+		52BEE7BB22874ABB00C96F8B /* UIViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7BA22874ABB00C96F8B /* UIViewExtension.swift */; };
+		52BEE7BF22875A1200C96F8B /* CALayerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7BE22875A1200C96F8B /* CALayerExtension.swift */; };
+		52BEE7C12288176D00C96F8B /* UIImageExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52BEE7C02288176D00C96F8B /* UIImageExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		526F54F322882F7300304D1D /* PulseAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PulseAnimation.swift; sourceTree = "<group>"; };
+		526F54F522883BE900304D1D /* CommentsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommentsModel.swift; sourceTree = "<group>"; };
+		526F54F72288820B00304D1D /* MyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTableViewCell.swift; sourceTree = "<group>"; };
+		526F54F92288908F00304D1D /* UILabelExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UILabelExtension.swift; sourceTree = "<group>"; };
 		52BEE78F2286C8F400C96F8B /* SampleDesignUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleDesignUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52BEE7922286C8F400C96F8B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52BEE7942286C8F400C96F8B /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +39,13 @@
 		52BEE79B2286C8F600C96F8B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52BEE79E2286C8F600C96F8B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52BEE7A02286C8F600C96F8B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52BEE7A62286CB9F00C96F8B /* ThirdViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		52BEE7A82286CBB500C96F8B /* FourthViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
+		52BEE7B02287376600C96F8B /* GameAlbumModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAlbumModel.swift; sourceTree = "<group>"; };
+		52BEE7B7228743D600C96F8B /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		52BEE7BA22874ABB00C96F8B /* UIViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExtension.swift; sourceTree = "<group>"; };
+		52BEE7BE22875A1200C96F8B /* CALayerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CALayerExtension.swift; sourceTree = "<group>"; };
+		52BEE7C02288176D00C96F8B /* UIImageExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIImageExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		526F54F222882F6000304D1D /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				526F54F322882F7300304D1D /* PulseAnimation.swift */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
 		52BEE7862286C8F400C96F8B = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +86,74 @@
 		52BEE7912286C8F400C96F8B /* SampleDesignUI */ = {
 			isa = PBXGroup;
 			children = (
+				526F54F222882F6000304D1D /* Libs */,
+				52BEE7B922874AA900C96F8B /* Extensions */,
+				52BEE7AB2287364F00C96F8B /* Sources */,
 				52BEE7922286C8F400C96F8B /* AppDelegate.swift */,
-				52BEE7942286C8F400C96F8B /* FirstViewController.swift */,
-				52BEE7962286C8F400C96F8B /* SecondViewController.swift */,
-				52BEE7982286C8F400C96F8B /* Main.storyboard */,
+				52BEE7AA2287361900C96F8B /* Assets */,
+			);
+			path = SampleDesignUI;
+			sourceTree = "<group>";
+		};
+		52BEE7AA2287361900C96F8B /* Assets */ = {
+			isa = PBXGroup;
+			children = (
 				52BEE79B2286C8F600C96F8B /* Assets.xcassets */,
+				52BEE7982286C8F400C96F8B /* Main.storyboard */,
 				52BEE79D2286C8F600C96F8B /* LaunchScreen.storyboard */,
 				52BEE7A02286C8F600C96F8B /* Info.plist */,
 			);
-			path = SampleDesignUI;
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		52BEE7AB2287364F00C96F8B /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				52BEE7AC2287366200C96F8B /* Cells */,
+				52BEE7AD2287366C00C96F8B /* Models */,
+				52BEE7AF2287369F00C96F8B /* Controllers */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		52BEE7AC2287366200C96F8B /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				52BEE7B7228743D600C96F8B /* MyCollectionViewCell.swift */,
+				526F54F72288820B00304D1D /* MyTableViewCell.swift */,
+			);
+			path = Cells;
+			sourceTree = "<group>";
+		};
+		52BEE7AD2287366C00C96F8B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				52BEE7B02287376600C96F8B /* GameAlbumModel.swift */,
+				526F54F522883BE900304D1D /* CommentsModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		52BEE7AF2287369F00C96F8B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				52BEE7942286C8F400C96F8B /* FirstViewController.swift */,
+				52BEE7962286C8F400C96F8B /* SecondViewController.swift */,
+				52BEE7A62286CB9F00C96F8B /* ThirdViewController.swift */,
+				52BEE7A82286CBB500C96F8B /* FourthViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		52BEE7B922874AA900C96F8B /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				52BEE7BA22874ABB00C96F8B /* UIViewExtension.swift */,
+				52BEE7BE22875A1200C96F8B /* CALayerExtension.swift */,
+				52BEE7C02288176D00C96F8B /* UIImageExtension.swift */,
+				526F54F92288908F00304D1D /* UILabelExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,8 +228,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				52BEE7972286C8F400C96F8B /* SecondViewController.swift in Sources */,
+				526F54F622883BE900304D1D /* CommentsModel.swift in Sources */,
 				52BEE7932286C8F400C96F8B /* AppDelegate.swift in Sources */,
+				52BEE7B8228743D600C96F8B /* MyCollectionViewCell.swift in Sources */,
+				526F54FA2288908F00304D1D /* UILabelExtension.swift in Sources */,
+				52BEE7A72286CB9F00C96F8B /* ThirdViewController.swift in Sources */,
+				526F54F422882F7300304D1D /* PulseAnimation.swift in Sources */,
+				526F54F82288820B00304D1D /* MyTableViewCell.swift in Sources */,
 				52BEE7952286C8F400C96F8B /* FirstViewController.swift in Sources */,
+				52BEE7A92286CBB500C96F8B /* FourthViewController.swift in Sources */,
+				52BEE7BF22875A1200C96F8B /* CALayerExtension.swift in Sources */,
+				52BEE7C12288176D00C96F8B /* UIImageExtension.swift in Sources */,
+				52BEE7BB22874ABB00C96F8B /* UIViewExtension.swift in Sources */,
+				52BEE7B12287376600C96F8B /* GameAlbumModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -288,7 +388,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3QAW5JU6CN;
-				INFOPLIST_FILE = SampleDesignUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SampleDesignUI/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -306,7 +406,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3QAW5JU6CN;
-				INFOPLIST_FILE = SampleDesignUI/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/SampleDesignUI/Assets/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

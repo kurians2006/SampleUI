@@ -12,4 +12,6 @@ struct GameAlbumModel {
     let artirst: String
     let name: String
     let image: String
+    let isFav: Bool
+    let likes:  String
 }
