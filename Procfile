@@ -1,1 +1,1 @@
-ios: ./SampleDesignUI
+app: ./SampleDesignUI
