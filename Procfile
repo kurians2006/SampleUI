@@ -1,1 +1,1 @@
-web: ./SampleDesignUI
+ios: ./SampleDesignUI
